@@ -59,6 +59,12 @@ p {
     background-position: center;
 }
 
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -128,6 +134,6 @@ p {
     font-size: 20px;
 }
 
-.footer h2 {
+.footer b {
     font-size: 20px;
 }
